@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ICW</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<h2>Krish Tutorial</h2>
+		<div style="z-index: 999"></div>
+		
+		<script type="text/javascript">
+			function getMaxZIndex() {
+				  return Math.max(
+				    Array.from(document.querySelectorAll('body *'), el =>
+				      parseFloat(window.getComputedStyle(el).zIndex),
+				    ).filter(zIndex => !Number.isNaN(zIndex)),
+				    0,
+				  );
+				}
+		</script>
+	</body>
+</html>

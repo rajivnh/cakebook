@@ -1,0 +1,2 @@
+insert into fake_book_user values('rajivnh@msn.com', '$2a$10$iKyLRfUJxMNwLMjDpAqSzu7OwFm.tXcR4ikl6nq/W82YPT1Fp3sna', 'ROLE_USER');
+insert into fake_book_user values('kkadmin@hotmail.com', '$2a$10$iKyLRfUJxMNwLMjDpAqSzu7OwFm.tXcR4ikl6nq/W82YPT1Fp3sna', 'ROLE_ADMIN');
