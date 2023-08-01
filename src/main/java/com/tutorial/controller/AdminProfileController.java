@@ -8,12 +8,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.tutorial.persistence.model.FakeBookUser;
 import com.tutorial.persistence.service.FakeBookUserService;
 
+@CrossOrigin
 @RestController
 public class AdminProfileController {
 	@Autowired
